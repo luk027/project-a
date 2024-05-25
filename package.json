@@ -2,10 +2,15 @@
   "name": "project-a",
   "version": "1.0.0",
   "description": "A project that covers all the main practices of backend.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Luk027",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.1",
+    "prettier": "^3.2.5"
+  }
 }
