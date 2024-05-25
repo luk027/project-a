@@ -1,0 +1,11 @@
+{
+  "name": "project-a",
+  "version": "1.0.0",
+  "description": "A project that covers all the main practices of backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luk027",
+  "license": "ISC"
+}
